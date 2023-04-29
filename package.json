@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "node dist/server.js",
+    "build": "lerna run build",
+    "dev": "lerna run dev"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.0",
+    "lerna": "^6.6.1"
+  }
+}

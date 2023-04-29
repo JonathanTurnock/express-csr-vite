@@ -1,0 +1,8 @@
+node_modules/
+dist
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/jsLibraryMappings.xml
+/.idea/modules.xml
+/.idea/portal-app.iml
+/.idea/vcs.xml
